@@ -10,4 +10,4 @@ const mapStateToProps = (state) => {
 
 const ShowDisplay = connect(mapStateToProps)(Display);
 
-export default DisplayContainer;
+export default ShowDisplay;

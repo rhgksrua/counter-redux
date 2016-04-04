@@ -1,7 +1,6 @@
-import React from 'react';
 
-import DisplayContainer from '../container/DisplayContainer';
-import ControlsContainer from '../container/ControlsContainer';
+import DisplayContainer from '../containers/DisplayContainer';
+import ControlsContainer from '../containers/ControlsContainer';
 
 const App = () => (
     <div className='app'>
@@ -9,3 +8,5 @@ const App = () => (
         <ControlsContainer />
     </div>
 );
+
+export default App;
